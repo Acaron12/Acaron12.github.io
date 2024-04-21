@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: "Puritan", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+#mycontainer {
+    background-color: lightblue;
+}
+
+#mynavbar {
+  background-color: blue;
+}
+
+#mynavbar li a {
+  color:black;
+}
+
+#mynavbar li a:hover {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+
+
+
+
+
+body {
+  background-image: url("https://images.pexels.com/photos/271715/pexels-photo-271715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 400px;
+  background-color: #E8E4F2;
+  color: black;
+}
+
+
+main {
+text-align: center;
+background-color: none;
+color: whitesmoke;
+font-weight: 800;
+  height: 750px;
+}
+
+
+.carousel, .carousel img  {
+    height: 400px;
+    margin: auto;
+}
+
+.carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  margin: 0 10px !important;
+  border-radius: 100%;
+  background-color: #1963ac !important;
+}
+
+
+
+footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+  
